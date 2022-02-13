@@ -1,0 +1,135 @@
+:root {
+   --primary-color: turquoise;
+   --secondary-color: turquoise;
+   --box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.2) --border: 1px solid blue;
+}
+
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 25px;
+   margin: 0;
+   margin-bottom: 200px;
+   
+}
+
+h1{
+   font-weight: bold;
+   text-align: center;
+   font-style:normal;
+   
+}
+h2,h3 {
+   text-align: center;
+   margin: 0;
+   font-family: 'Rajdhani',
+   sans-serif;
+   
+}
+
+h3{
+   opacity: 1.0;
+}
+
+div {
+   display: block;
+}
+.front-page {
+   margin-top: 100px;
+}
+.nav {
+   margin-bottom: 10px;
+   border: 1px solid var(--primary-color);
+   background: var(--primary-color);
+   border: var(--border);
+
+}
+.nav-links {
+   display: flex;
+   justify-content: space-evenly;
+   color: black;
+   margin-top: 30px;
+   
+   
+}
+
+.nav-links a{
+   margin: 20px;
+   text-decoration: none;
+   border: 1px solid var(--primary-color);
+   padding: 10px;
+   background-color: black;
+   box-shadow: 10px 10px 2px 2px var(--primary-color);
+   
+}
+
+#about-link {
+   background-color: whitesmoke;
+   color: black;
+}
+#contact-link:hover {
+   background-color: whitesmoke;
+   color: black;
+}
+#about-link:hover {
+   background-color: black;
+   color: var(--primary-color);
+}
+a {
+   display: flex;
+   flex-direction: row;
+   color: var(--primary-color);
+   text-decoration: none;
+  
+
+}
+
+a:hover {
+   color: black;
+   text-decoration: none;
+}
+
+a:visited {
+   color: var(--primary-color);
+}
+
+p {
+   background-color: turquoise;
+   padding: 20px;
+   border-radius: 5px;
+   font-size: 15px;
+   line-height: 1.5;
+   text-align: center;
+
+}
+
+.homepage-about {
+   text-align: center;
+   color: var(--primary-color);
+   display: block;
+   margin: 30px;
+}
+
+.homepage-about:hover {
+   color: turquoise;
+}
+
+
+.email-link {
+   text-align: center;
+   display: block;
+   color: var(--secondary-color);
+   margin: 20px;
+   font-size: 25px;
+
+}
+.email-link:hover {
+   color: turquoise;
+}
+
+body {
+   background-image: url("images/coverpic.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+   
+}
