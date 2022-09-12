@@ -2,15 +2,41 @@
 # Please enter the commit message for your changes. Lines starting
 # with '#' will be ignored, and an empty message aborts the commit.
 #
-# On branch master
+# On branch main
 #
 # Initial commit
 #
 # Changes to be committed:
-#	new file:   antony-ZLH7QrDk7Uk-unsplash.jpg
-#	new file:   davy-steinhauer-GcMSeELyUzc-unsplash.jpg
-#	new file:   header2.jpg
-#	new file:   headerimage.JPG
-#	new file:   logo.jpg
-#	new file:   thomas-lefebvre-V63oM8OPJSo-unsplash (3).jpg
+#	new file:   sogatis
+#	new file:   src/about.html
+#	new file:   src/contact.html
+#	new file:   src/home.html
+#	new file:   src/images/Front End Development.JPG
+#	new file:   src/images/aboutmepic.jpg
+#	new file:   src/images/coverpic.jpg
+#	new file:   src/images/coverpic2.jpg
+#	new file:   src/images/honeycats.png
+#	new file:   src/images/images
+#	new file:   src/images/logo.jpg
+#	new file:   src/images/weatherapp.png
+#	new file:   src/index.html
+#	new file:   src/photography/photography.html
+#	new file:   src/style.css
+#	new file:   src/work.html
+#
+# Changes not staged for commit:
+#	modified:   src/about.html
+#	modified:   src/contact.html
+#	modified:   src/index.html
+#	modified:   src/style.css
+#	modified:   src/work.html
+#
+# Untracked files:
+#	COMMIT_EDITMSG.txt
+#	src/Achivements.html
+#	src/images/comingsoon.png
+#	src/images/newcover.jpg
+#	src/images/profilepic.jpg
+#	src/images/technical port.png
+#	src/images/technologies .png
 #
