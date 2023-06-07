@@ -14,6 +14,9 @@
     font-size: 30px;
     color: black;
   }
+  a{
+    color: pink;
+  }
     
   
   
@@ -25,9 +28,9 @@
     background-color: pink;
   }
   .projectlink{
-        background-color: white;
-        color: pink;
-        border-radius: 15px;
+        background-color: black;
+        color: white;
+        border-radius: 20px;
         padding: 8px;
         text-align: center;
         
@@ -37,17 +40,71 @@
         background-color: pink;
         color: white;
     }
+    
     .img-fluid{
       border-radius: 20px;
       padding: auto;
+    }
+    .navbar-pink {
+            background-color: rgb(239, 207, 207);
+            
+            
+        }
+        .navbar-toggler{
+            background-color: black;
+            border-color: black;
+            border-radius: 100px 30px;
+            
+        }
+
+        .collapse a {
+            font-size: 16px;
+            font-family: 'Rajdhani', sans-serif;
+        }
+
+        h1 {
+            font-size: 50px;
+            font-family: 'Rajdhani', sans-serif;
+        }
+      
+    .nav-links {
+        font-family: 'Rajdhani', sans-serif;
+        
+        
+
+    }
+    .nav-links a{
+        background-color: rgb(140, 182, 190);
+        color: black;
+    }
+    .navbar a{
+        color: black;
     }
   
 </style>
 
 <body>
-     <a class="homepage-about" href="../src/index.html">✨Home page✨</a>
+    <nav class="navbar navbar-expand-lg navbar-pink font-monospace/>
+              <div class="container-fluid">
+                  <a class="navbar-brand text-black" href="index.html" >{SO}</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                      <div class="navbar-nav">
+                          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                          <a class="nav-link" href="about.html">✨My Story</a>
+                          <a class="nav-link" href="work.html">🌵My Projects</a>
+                          <a class="nav-link" href="achivements.html">🏆Achievements</a>
+                          <a class="nav-link" href="contact.html">📮Contact</a>
+                      </div>
+                  </div>
+              </div>
+    </nav>
+        <br>
+        <br>
+        <br>
     
-    <br>
   
 
     
@@ -59,14 +116,18 @@
           <h2>Honey Cats PH</h2>
           <br>
           <p>
-              Coded a static website for a cat rescue in the Philippines. It show case the available cats
+              Created and designed static website for a cat rescue in the Philippines. It show case the available cats
               for adoption and merchandise.<br>
               Technologies used: HTML, CSS, Bootstrap.<br><br>
               
             <button class="projectlink">
-            <a href="https://honeycats.netlify.app/?fbclid=IwAR1uZDw6N19DOjFBrjVwsn6-Tof7-3up5ipxWtwT7ZNNt_mHkiHgId-zGiw" target="_blank">Click here
+            <a href="https://honeycats.netlify.app/?fbclid=IwAR1uZDw6N19DOjFBrjVwsn6-Tof7-3up5ipxWtwT7ZNNt_mHkiHgId-zGiw" target="_blank">Link here
             </a>
             </button>  
+            <button class="projectlink">
+            <a href="https://github.com/suxanes/HoneyPH" target="_blank">Github
+            </a>
+          </button>
             <br>
         
             <br>  
@@ -82,10 +143,14 @@
           <h2>WeatherApp</h2>
           <br>
           <p>
-              Coded a simple WeatherApp that helped me honend my coding skills.<br>
+              Implemented a simple WeatherApp that helped me practice coding utilizing JavaScript.<br>
               Technologies used: HMTL, CSS, Boostrap,API, JavaScript<br><br>
           <button class="projectlink">
-            <a href="https://www.shecodes.io/workshops/shecodes-plus-31-0/projects/154439?fbclid=IwAR3K0sIs2lfECswcH_QhgrwSWTufC1hhU8fMDrTQhqsMG-q7NMVFyP0gdQg" target="_blank">Click here
+            <a href="https://www.shecodes.io/workshops/shecodes-plus-31-0/projects/154439?fbclid=IwAR3K0sIs2lfECswcH_QhgrwSWTufC1hhU8fMDrTQhqsMG-q7NMVFyP0gdQg" target="_blank">Link here
+            </a>
+          </button>
+          <button class="projectlink">
+            <a href="https://github.com/suxanes" target="_blank">Github
             </a>
           </button>
           <br>
@@ -106,9 +171,15 @@
           <h2>Technical Portfolio</h2>
           <br>
           <p>
-              Launching Soon!<br><br>
+              Designed and implemented my own technical portfolio website. As a current student and seeking
+              future internships, I thought creating my portfolio would be a good way to showcase my projects.
+              <br>Technologies used: HTML & CSS<br><br>
           <button class="projectlink">
-            <a href="https://honeycats.netlify.app/?fbclid=IwAR1uZDw6N19DOjFBrjVwsn6-Tof7-3up5ipxWtwT7ZNNt_mHkiHgId-zGiw" target="_blank">Click here
+            <a href="https://ogatis.netlify.app/" target="_blank">Link here
+            </a>
+          </button>
+          <button class="projectlink">
+            <a href="https://github.com/suxanes/SOgatis" target="_blank">Github
             </a>
           </button>
           <br>
@@ -125,6 +196,4 @@
         
 </body>
 </html>
-
-
 
